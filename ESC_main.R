@@ -1,4 +1,4 @@
-#2717 mouse embryonic stem cells£¬with 24174 observed unique transcripts
+#2717 mouse embryonic stem cellsï¿½ï¿½with 24174 observed unique transcripts
 library(edgeR)
 library(DESeq)
 library(ggplot2)
@@ -168,4 +168,4 @@ outofcurves<-getCurves(inputofcurves,extend="n")
 pseudotime<-outofcurves@curves$curve1$lambda
 pseudotime.sort<-sort(pseudotime,decreasing = F)
 write.table(pseudotime,"ESC_pseudotime.txt")
-
+#
